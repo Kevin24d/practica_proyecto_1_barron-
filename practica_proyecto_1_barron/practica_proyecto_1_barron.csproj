@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{04056077-1365-4160-ABCB-5E8C3694EE92}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>practica_proyecto_1_barron</RootNamespace>
+    <AssemblyName>practica_proyecto_1_barron</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FormaCalculadoraArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FormaCalculadoraArea.Designer.cs">
+      <DependentUpon>FormaCalculadoraArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FormaCalculadorDolares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FormaCalculadorDolares.Designer.cs">
+      <DependentUpon>FormaCalculadorDolares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FormaEcuaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FormaEcuaciones.Designer.cs">
+      <DependentUpon>FormaEcuaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FormaEntrevista1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FormaEntrevista1.Designer.cs">
+      <DependentUpon>FormaEntrevista1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FormaEntrevista2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FormaEntrevista2.Designer.cs">
+      <DependentUpon>FormaEntrevista2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FormaEntrevista3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FormaEntrevista3.Designer.cs">
+      <DependentUpon>FormaEntrevista3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FormaEntrevistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FormaEntrevistas.Designer.cs">
+      <DependentUpon>FormaEntrevistas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FormaHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FormaHome.Designer.cs">
+      <DependentUpon>FormaHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FormaLpm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FormaLpm.Designer.cs">
+      <DependentUpon>FormaLpm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FormaPresentacion01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FormaPresentacion01.Designer.cs">
+      <DependentUpon>FormaPresentacion01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FormaPresentacion02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FormaPresentacion02.Designer.cs">
+      <DependentUpon>FormaPresentacion02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FormaPresentacion03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FormaPresentacion03.Designer.cs">
+      <DependentUpon>FormaPresentacion03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FormaPresentacion04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FormaPresentacion04.Designer.cs">
+      <DependentUpon>FormaPresentacion04.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FormaPresentacion05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FormaPresentacion05.Designer.cs">
+      <DependentUpon>FormaPresentacion05.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FormaPresentacion06.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FormaPresentacion06.Designer.cs">
+      <DependentUpon>FormaPresentacion06.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FormaPresentacionEntrevista1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FormaPresentacionEntrevista1.Designer.cs">
+      <DependentUpon>FormaPresentacionEntrevista1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FormaPresentacionEntrevista2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FormaPresentacionEntrevista2.Designer.cs">
+      <DependentUpon>FormaPresentacionEntrevista2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FormaPresentacionEntrevista3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FormaPresentacionEntrevista3.Designer.cs">
+      <DependentUpon>FormaPresentacionEntrevista3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FormaRegistrarse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FormaRegistrarse.Designer.cs">
+      <DependentUpon>FormaRegistrarse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FormaSalario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FormaSalario.Designer.cs">
+      <DependentUpon>FormaSalario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\MathQuiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\MathQuiz.Designer.cs">
+      <DependentUpon>MathQuiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\pictureViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\pictureViewer.Designer.cs">
+      <DependentUpon>pictureViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FormaCalculadoraArea.resx">
+      <DependentUpon>FormaCalculadoraArea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FormaCalculadorDolares.resx">
+      <DependentUpon>FormaCalculadorDolares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FormaEcuaciones.resx">
+      <DependentUpon>FormaEcuaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FormaEntrevista1.resx">
+      <DependentUpon>FormaEntrevista1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FormaEntrevista2.resx">
+      <DependentUpon>FormaEntrevista2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FormaEntrevista3.resx">
+      <DependentUpon>FormaEntrevista3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FormaEntrevistas.resx">
+      <DependentUpon>FormaEntrevistas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FormaHome.resx">
+      <DependentUpon>FormaHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FormaLpm.resx">
+      <DependentUpon>FormaLpm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FormaPresentacion01.resx">
+      <DependentUpon>FormaPresentacion01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FormaPresentacion02.resx">
+      <DependentUpon>FormaPresentacion02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FormaPresentacion03.resx">
+      <DependentUpon>FormaPresentacion03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FormaPresentacion04.resx">
+      <DependentUpon>FormaPresentacion04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FormaPresentacion05.resx">
+      <DependentUpon>FormaPresentacion05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FormaPresentacion06.resx">
+      <DependentUpon>FormaPresentacion06.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FormaPresentacionEntrevista1.resx">
+      <DependentUpon>FormaPresentacionEntrevista1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FormaPresentacionEntrevista2.resx">
+      <DependentUpon>FormaPresentacionEntrevista2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FormaPresentacionEntrevista3.resx">
+      <DependentUpon>FormaPresentacionEntrevista3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FormaRegistrarse.resx">
+      <DependentUpon>FormaRegistrarse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FormaSalario.resx">
+      <DependentUpon>FormaSalario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\MathQuiz.resx">
+      <DependentUpon>MathQuiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\pictureViewer.resx">
+      <DependentUpon>pictureViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contraseña.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoTema.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2023-09-25 183928.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2023-09-21 165532.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2023-09-21 165550.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2023-09-21 171033.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2023-09-21 171353.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2023-09-21 172257.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2023-09-21 172907.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2023-09-21 173456.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2023-09-21 173832.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portada-tipos-de-entrevistas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ingresar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo-calculadora.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo-inversiones.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondop Lpm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo-artsoba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
